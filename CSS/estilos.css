@@ -1,0 +1,207 @@
+body{
+    font: 15px Franklin Gothic Heavy, Franklin Gothic Book, Agsana new;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*Encabezado*/
+header{
+    background-color: white;
+    color: #005883;
+    padding-top: 5px;
+    min-height: 50px;
+    border-bottom: 5px solid #F47920;
+    
+   
+}
+
+#logo{
+    width: 120px;
+    height: 100px;
+    margin: 0px 0px 20px 0px;
+    float: left;
+}
+
+#TituloCabecera #resaltado{
+    color: #F0B429;
+}
+
+#TituloCabecera{
+    float: right;
+    margin: 0 0 0 100px;
+    font-size: 20px;
+}
+
+#subtitulo{
+    float: right;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: #F47920;
+}
+
+
+/*inicio menu principal*/
+
+#menuP{
+    padding: 5px;
+    color: white;
+    background-color: #005883;
+    
+}
+
+
+
+.navegacion{
+    width: 80%;
+    margin: auto;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.menu li a:hover{
+    color: #F0B429;
+    transition: all .3s;
+}
+
+/*Fin menu principal*/
+
+/*Inicio submenu1*/
+
+.submenu1{
+    position:   absolute;
+    margin: 0;
+    background: #fff;
+    width: 120%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 1s;
+    border-radius: 1em;   
+}
+
+.submenu1 li a{
+    display: block;
+    padding: 15px;
+    color: #F0B429;
+    text-decoration: none;
+    
+}
+
+.menu li:hover .submenu1{
+    visibility: visible;
+    opacity: 1;
+}
+    
+.submenu1 li a:hover{
+    background-color: #F47920;
+    border-radius: 1em;
+    color: white;
+}
+
+.submenu2{
+    position:   absolute;
+    background: #fff;
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    border-radius: 1em;
+    
+    
+}
+
+.submenu2 li a{
+    display: block;
+    padding: 15px;
+    color: #F0B429;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu2{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.submenu2 li a:hover{
+    background-color: #F47920;
+    border-radius: 1em;
+    color: white;
+}
+
+
+
+/*Lateral*/
+
+aside#lateral{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    
+}
+
+.logos img{
+    width: 120px;
+    margin-top: 10px;
+}
+
+#lateral h1{
+    color: #F0B429 ;
+}
+
+
+/* main-col*/
+
+article#main-col{
+    float: left;
+    width: 60%;
+    
+}
+
+#main-col h1{
+    color: #F0B429;
+}
+
+figure img{
+    width: 500px;
+}
+
+
+/*Footer*/
+
+footer{
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+    background-color: #005883;
+    text-align: center;   
+    
+}
+
+footer .firma{
+    color: #F0B429 ;
+}
